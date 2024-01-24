@@ -2,12 +2,8 @@ package com.dragon.controller;
 
 import com.dragon.pojo.Article;
 import com.dragon.pojo.Result;
-import com.dragon.pojo.User;
-import com.dragon.utils.JwtUtil;
-import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Map;
 
 @RestController
 @RequestMapping("/article")
